@@ -11,4 +11,4 @@ String outHigh[8] = {":SE14",":SE07",":SE03",":OP00","#OPUA/r#OPLA","#OPUA","cen
 String outLow [8] = {"CBD1","manama",":SE04","#OF00","#CLUA/r#CLLA","#CLUA","tool1","$2"};
 
 
-![RC Carson Channels](/blob/main/carson-channels.png?raw=true "RC Setup")
+![RC Carson Channels](carson-channels.png?raw=true "RC Setup")
