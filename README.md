@@ -1,5 +1,8 @@
 # RC-TO-SERIAL
  RC Command Translator
+ Send MABC Commands to your Droid via RC Transmitter
+ 
+ 
 ## PINS for use with Arduino Pro Micro
 * 2 - 12  RC Input
 * 0 TX for 9600 Baud Output
