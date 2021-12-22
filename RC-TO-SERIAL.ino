@@ -7,7 +7,7 @@
 const int ledPin =  17;        // the number of the LED pin
 int ledState = LOW;                     // ledState used to set the LED
 unsigned long previousMillis = 0;        // will store last time LED was updated
-const long interval = 400;               // interval at which to blink (milliseconds)
+const long interval = 100;               // interval at which to blink (milliseconds)
 
 //#define DEBUG //
 //#define ACTIVEPIN 2  // Amount of Active Pins
@@ -44,13 +44,13 @@ void getCMD(int PIN){
         }
 
         if (value <= 1100){
-          Serial.print(outLow[i]);
-          Serial.println('\r');
+          Serial1.print(outLow[i]);
+          Serial1.print('\r');
           delay(2000);
         }
         if (value >= 1600){
-          Serial.print(outHigh[i]);
-          Serial.println('\r');
+          Serial1.print(outHigh[i]);
+          Serial1.print('\r');
           delay(2000);
         }
    
@@ -61,7 +61,8 @@ void getCMD(int PIN){
 
 void setup() {
   // put your setup code here, to run once:
-    Serial.begin(9600);
+    //Serial.begin(9600);
+    Serial1.begin(9600);
     pinMode(ledPin, OUTPUT);
     
 }
@@ -79,5 +80,8 @@ void loop() {
     }
      digitalWrite(ledPin, ledState);
   }
+
+   //Serial.print("CBD1/r");
+   //delay(4000);
   
 }
