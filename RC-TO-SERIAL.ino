@@ -19,9 +19,9 @@ int activePin[ACTIVEPIN] = {2,3,4,5,6,7,8,9};  //Array with RC Input Pins
 
 //Set Comand for each PIN (RC Channel)
 //  Commands        -2|Wake UP -3|Cantina -4|Smirk -5|OP A -6|UArmOP -7|Wave -8|center -9|Mode                
-String outHigh[8] = {":SE14",":SE07",":SE03",":OP00","OPA",":SE01","center","MOD" };
+String outHigh[8] = { ":SE14",  ":SE07",  ":SE03",  ":OP00","OPA",   ":SE01", "center",  "MOD" };
 //  Commands        -2|Reset -3|MANAMA -4|Wave -5|Flutter -6|Arms CL  -7|Scream -8|tool1 -9|next Sound
-String outLow [8] = {"CBD1","manama",":SE04","#OF00","CLA",":SE01","tool1","$2"};
+String outLow [8] = {"CBD1",  "manama", ":SE04", "#OF00",  "CLA",  ":SE01",    "tool1"   ,"$2"};
 
 void getCMD(int PIN){
      
