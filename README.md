@@ -10,7 +10,7 @@
 
 * UP      Sound +    CantinaSE07    LeiaSE08    SmirkSE03       Open All      Arms OPA    Flutter     Sound Next$2
 *    ||-----1-----||-----2-----||-----3-----||-----4-----|    |-----5-----||-----6-----||-----7-----||-----8-----||  
-* Down    Sound -     Manamana     FaintSE06    Wave2SE04       AwakeSE14     Arms CLA     ResetSE00       Mode
+* Down    Sound -     Manamana     FaintSE06    Wave2SE04       AwakeSE14     SPRAY     ResetSE00       Mode
 
 ## CH SET
 * CH8   232 Trig
