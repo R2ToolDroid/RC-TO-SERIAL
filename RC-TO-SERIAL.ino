@@ -13,19 +13,19 @@ const long interval = 100;               // interval at which to blink (millisec
 //#define ACTIVEPIN 2  // Amount of Active Pins
 //int activePin[ACTIVEPIN] = {2,3};  //Array with RC Input Pins 
 
-#define ACTIVEPIN 8
-int activePin[ACTIVEPIN] = {2,3,4,5,6,7,8,9};  //Array with RC Input Pins 
+#define ACTIVEPIN 9
+int activePin[ACTIVEPIN] = {2,3,4,5,6,7,8,9,10};  //Array with RC Input Pins 
 
 /* Channel --- Test for Pro PSI @0T7
-UP      Sound +    CantinaSE07    LeiaSE08    SmirkSE03       Open All      Arms OPA     Flutter        Sound Next$2
-    ||-----1-----||-----2-----||-----3-----||-----4-----|    |-----5-----||-----6-----||-----7-----||-----8-----||  
-Down    Sound -     Manamana     FaintSE06    Wave2SE04       AwakeSE14     Spray     ResetSE10       Mode
+UP      Sound +    CantinaSE07    LeiaSE08    SmirkSE03       Open All      Arms OPA     Flutter    Sound Next$2    shake
+    ||-----1-----||-----2-----||-----3-----||-----4-----|    |-----5-----||-----6-----||-----7-----||-----8-----||-----9-----| 
+Down    Sound -     Manamana     FaintSE06    Wave2SE04       AwakeSE14     Spray     ResetSE10       Mode          move
 
 */
 //Set Comand for each PIN (RC Channel)
               
-String outLow[8] = {  "$+",":SE07",  ":SE08", ":SE03", ":OP00", "OPA", "#OF00",  "$2" };
-String outHigh [8] = {"$-","manama", ":SE06", ":SE04", ":SE14", "#SPRAY", ":SE10", "MOD"};
+String outLow[ACTIVEPIN] = {  "$+",":SE07",  ":SE08", ":SE03", ":OP00", "OPA", "#OF00",  "$2", "shake" };
+String outHigh [ACTIVEPIN] = {"$-","manama", ":SE06", ":SE04", ":SE14", "#SPRAY", ":SE10", "MOD", "move"};
 
 void getCMD(int PIN){
      
