@@ -13,16 +13,22 @@
 * Down    Sound -     Manamana     FaintSE06    Wave2SE04       AwakeSE14     SPRAY     ResetSE00       Mode
 
 ## CH SET
-* CH8   232 Trig
+* CH8   VOL -  / VOL +
 
 * CH11  
-* CH12 
-* CH13  
+  
+* CH12
+  
+* CH13
+    
 * CH14  
 
-* CH10  
-* CH9   
-* CH6   
+* CH10
+    
+* CH9
+     
+* CH6
+     
 * CH5   
 
 * CH7   Source RC or Stick 
