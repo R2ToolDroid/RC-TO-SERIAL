@@ -8,28 +8,28 @@
 * 0 TX for 9600 Baud Output
 * PIN  2-3-4-5-6-7-8-9
 
-* UP      Sound +    CantinaSE07    LeiaSE08    SmirkSE03       Open All      Arms OPA    Flutter     Sound Next$2
-*    ||-----1-----||-----2-----||-----3-----||-----4-----|    |-----5-----||-----6-----||-----7-----||-----8-----||  
-* Down    Sound -     Manamana     FaintSE06    Wave2SE04       AwakeSE14     SPRAY     ResetSE00       Mode
+* UP      Sound +        SHAKE      CantinaSE07    LeiaSE08    SmirkSE03        Open All     Arms OPA     Flutter       Sound Next$2      SHAKE
+*    ||---1--CH8---||---2-CH11---||---2-CH12---||---3-CH13--||---4-CH14--|    |---5-CH10--||---6-CH9---||---7-CH9----||-----8-CH10----||---9-CH11----|  
+* Down    Sound -         232        Manamana     FaintSE06    Wave2SE04        AwakeSE14     SPRAY       ResetSE00        Mode           move
 
 ## CH SET
 * CH8   VOL -  / VOL +
-
-* CH11  
+          
+* CH11  SHAKE / 232
   
-* CH12
+* CH12  Cantina / Manama
   
-* CH13
+* CH13  Leia / Faint
     
-* CH14  
+* CH14  Smirk / Wave 
 
-* CH10
+* CH10   OP ALL / Awake
     
-* CH9
+* CH9   ARM  / Spray
      
-* CH6
+* CH6   Flutter / Reset
      
-* CH5   
+* CH5   Next Sound / Mode
 
 * CH7   Source RC or Stick 
 
